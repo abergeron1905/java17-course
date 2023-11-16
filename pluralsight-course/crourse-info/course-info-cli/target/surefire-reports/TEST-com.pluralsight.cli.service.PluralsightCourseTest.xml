@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pluralsight.cli.service.PluralsightCourseTest" time="0.052" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/test-classes:/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/classes:/home/aberg/.m2/repository/org/jeasy/easy-random-core/5.0.0/easy-random-core-5.0.0.jar:/home/aberg/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/aberg/.m2/repository/io/github/classgraph/classgraph/4.8.90/classgraph-4.8.90.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/aberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/aberg/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/aberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/aberg/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/aberg/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/aberg/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0-rc1/jackson-databind-2.16.0-rc1.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0-rc1/jackson-core-2.16.0-rc1.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0-rc1/jackson-annotations-2.16.0-rc1.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/surefire/surefirebooter6278576844672876589.jar /home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/surefire 2023-11-16T13-54-16_724-jvmRun1 surefire16867624935489016444tmp surefire_113181753954890393863tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/test-classes:/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/classes:/home/aberg/.m2/repository/org/jeasy/easy-random-core/5.0.0/easy-random-core-5.0.0.jar:/home/aberg/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/aberg/.m2/repository/io/github/classgraph/classgraph/4.8.90/classgraph-4.8.90.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/aberg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/aberg/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/aberg/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/aberg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/aberg/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/aberg/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/aberg/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0-rc1/jackson-databind-2.16.0-rc1.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0-rc1/jackson-core-2.16.0-rc1.jar:/home/aberg/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0-rc1/jackson-annotations-2.16.0-rc1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/aberg"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli/target/surefire/surefirebooter6278576844672876589.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="aberg"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.16.3-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/aberg/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/home/aberg/projets/java17_course/pluralsight-course/crourse-info/course-info-cli"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDurationInMinutes{String, long}[1]" classname="com.pluralsight.cli.service.PluralsightCourseTest" time="0.019"/>
+  <testcase name="testDurationInMinutes{String, long}[2]" classname="com.pluralsight.cli.service.PluralsightCourseTest" time="0.001"/>
+  <testcase name="testDurationInMinutes{String, long}[3]" classname="com.pluralsight.cli.service.PluralsightCourseTest" time="0"/>
+</testsuite>
