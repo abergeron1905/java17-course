@@ -31,7 +31,7 @@ class CourseJdbcRepository implements CourseRepository {
     }
 
     @Override
-    public void saveCourse(Course course) throws RepositoryException {
+    public void saveCourse(Course course)  {
 
         try (Connection connection = dataSource.getConnection();) {
 
@@ -49,7 +49,7 @@ class CourseJdbcRepository implements CourseRepository {
     }
 
     @Override
-    public List<Course> getAllCourses() throws RepositoryException {
+    public List<Course> getAllCourses() {
         try (Connection connection = dataSource.getConnection();) {
             Statement statement = connection.createStatement();
             ResultSet resultset = statement.executeQuery("SELECT * FROM COURSES");

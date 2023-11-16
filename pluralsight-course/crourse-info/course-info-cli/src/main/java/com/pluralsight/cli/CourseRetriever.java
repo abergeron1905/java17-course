@@ -8,7 +8,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.pluralsight.cli.service.CourseRetrieverService;
+import com.pluralsight.cli.service.CourseStorageService;
 import com.pluralsight.cli.service.PluralsightCourse;
+import com.pluralsight.courseinfo.repository.CourseRepository;
 
 public class CourseRetriever {
     private static final Logger LOG = LoggerFactory.getLogger(CourseRetriever.class);
@@ -32,6 +34,8 @@ public class CourseRetriever {
     private static void retrieveCourses(String authorName) {
         LOG.info("Retrieving courses for author {}" + authorName);
         CourseRetrieverService courseRetrieverservice = new CourseRetrieverService();
+        CourseRepository courseRepository = CourseRepository.openCourseRepository("./courses.db");
+        CourseStorageService courseStorageService = new CourseStorageService(courseRepository);
 
         List<PluralsightCourse> coursesToStore = courseRetrieverservice.getCoursesFor(authorName)
                 .stream()
@@ -42,8 +46,10 @@ public class CourseRetriever {
                 .stream()
                 .filter(not(PluralsightCourse::isRetired))
                 .toList();
-
         LOG.info("Retrieved the following the following {} courses {}", coursesToStore.size(),
                 coursesToStore.toString());
+
+        courseStorageService.storePlurialsightCourses(coursesToStore);
+        LOG.info("Courses sucesffully stored");
     }
 }

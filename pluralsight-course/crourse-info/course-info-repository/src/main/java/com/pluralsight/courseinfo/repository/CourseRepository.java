@@ -6,8 +6,11 @@ import com.pluralsight.courseinfo.domain.Course;
 
 public interface CourseRepository {
 
-    void saveCourse(Course course) throws RepositoryException;
+    void saveCourse(Course course);
 
-    List<Course> getAllCourses() throws RepositoryException;
+    List<Course> getAllCourses();
     
+    static CourseRepository openCourseRepository (String databaseFile) {
+        return new CourseJdbcRepository(databaseFile);
+    }
 }
