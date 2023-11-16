@@ -3,3 +3,30 @@ pluralsight-course/crourse-info/course-info-cli/target/classes/*
 
 pluralsight-course/crourse-info/course-info-repository/target/classes/*
 
+file./courses.db.mv.db
+pluralsight-course/crourse-info/course-info-cli/target/course-info-cli-1.0-SNAPSHOT.jar
+pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/CourseRetriever.class
+pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/service/CourseRetrieverService.class
+pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/service/CourseStorageService.class
+pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/service/PluralsightCourse.class
+pluralsight-course/crourse-info/course-info-cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+pluralsight-course/crourse-info/course-info-cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/com.pluralsight.cli.service.CourseStorageServiceTest.txt
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/com.pluralsight.cli.service.PluralsightCourseTest.txt
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/TEST-com.pluralsight.cli.service.CourseStorageServiceTest.xml
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/TEST-com.pluralsight.cli.service.PluralsightCourseTest.xml
+pluralsight-course/crourse-info/course-info-cli/target/test-classes/com/pluralsight/cli/service/CourseStorageServiceTest.class
+pluralsight-course/crourse-info/course-info-cli/target/test-classes/com/pluralsight/cli/service/CourseStorageServiceTest$InMemoryCourseRepository.class
+pluralsight-course/crourse-info/course-info-cli/target/test-classes/com/pluralsight/cli/service/PluralsightCourseTest.class
+pluralsight-course/crourse-info/course-info-repository/target/course-info-repository-1.0-SNAPSHOT.jar
+pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/Main.class
+pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/domain/Course.class
+pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/CourseJdbcRepository.class
+pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/CourseRepository.class
+pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/RepositoryException.class
+pluralsight-course/crourse-info/course-info-repository/target/maven-archiver/pom.properties
+pluralsight-course/crourse-info/course-info-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+pluralsight-course/crourse-info/course-info-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/com.pluralsight.courseinfo.domain.CourseTest.txt
+pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/TEST-com.pluralsight.courseinfo.domain.CourseTest.xml
+pluralsight-course/crourse-info/course-info-repository/target/test-classes/com/pluralsight/courseinfo/domain/CourseTest.class
