@@ -4,7 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.pluralsight.Main",
+            "projectName": "course-info-server"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "course-info"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -17,7 +30,9 @@
             "request": "launch",
             "mainClass": "com.pluralsight.cli.CourseRetriever",
             "projectName": "course-info-cli",
-            "args": ["sander-mak"]
+            "args": [
+                "sander-mak"
+            ]
         },
         {
             "type": "java",
@@ -26,6 +41,5 @@
             "mainClass": "com.pluralsight.Main",
             "projectName": "course-info-repository"
         }
-        
     ]
 }

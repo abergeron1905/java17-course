@@ -24,9 +24,9 @@ file./courses.db.mv.db
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.txt
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.xml
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.xml
-pluralsight-course/crourse-info/course-info-repository/target/*.txt
-pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/*.xml
-pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/*.txt
+pluralsight-course/course-info/course-info-cli/target/surefire-reports/*.txt
+pluralsight-course/course-info/course-info-cli/target/surefire-reports/*.xml
+pluralsight-course/course-info/course-info-cli/target/surefire-reports/*.xml
+pluralsight-course/course-info/course-info-repository/target/*.txt
+pluralsight-course/course-info/course-info-repository/target/surefire-reports/*.xml
+pluralsight-course/course-info/course-info-repository/target/surefire-reports/*.txt
