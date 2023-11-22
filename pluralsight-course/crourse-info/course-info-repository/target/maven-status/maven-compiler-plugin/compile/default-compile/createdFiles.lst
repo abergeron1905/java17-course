@@ -1,5 +1,0 @@
-com/pluralsight/courseinfo/domain/Course.class
-com/pluralsight/Main.class
-com/pluralsight/courseinfo/repository/RepositoryException.class
-com/pluralsight/courseinfo/repository/CourseRepository.class
-com/pluralsight/courseinfo/repository/CourseJdbcRepository.class
