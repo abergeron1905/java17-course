@@ -3,8 +3,10 @@ file./courses.db.mv.db
 # Compiled class file
 *.class
 *.lst
+*.properties
 # Log file
 *.log
+
  
 
 # Mobile Tools for Java (J2ME)
@@ -22,21 +24,9 @@ file./courses.db.mv.db
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-pluralsight-course/crourse-info/course-info-cli/target/course-info-cli-1.0-SNAPSHOT.jar
-pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/CourseRetriever.class
-pluralsight-course/crourse-info/course-info-cli/target/classes/com/pluralsight/cli/service/CourseStorageService.class
-pluralsight-course/crourse-info/course-info-cli/target/maven-archiver/pom.properties
-pluralsight-course/crourse-info/course-info-cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/*.lst
 pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.txt
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.txt
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/TEST-com.pluralsight.cli.service.CourseStorageServiceTest.xml
-pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/TEST-com.pluralsight.cli.service.PluralsightCourseTest.xml
-pluralsight-course/crourse-info/course-info-repository/target/course-info-repository-1.0-SNAPSHOT.jar
-pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/CourseJdbcRepository.class
-pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/CourseRepository.class
-pluralsight-course/crourse-info/course-info-repository/target/classes/com/pluralsight/courseinfo/repository/RepositoryException.class
-pluralsight-course/crourse-info/course-info-repository/target/maven-archiver/pom.properties
-pluralsight-course/crourse-info/course-info-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/*.lst
-pluralsight-course/crourse-info/course-info-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/*.lst
-pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/*.txt
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.xml
+pluralsight-course/crourse-info/course-info-cli/target/surefire-reports/*.xml
+pluralsight-course/crourse-info/course-info-repository/target/*.txt
 pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/*.xml
+pluralsight-course/crourse-info/course-info-repository/target/surefire-reports/*.txt
