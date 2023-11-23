@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CourseServer",
+            "request": "launch",
+            "mainClass": "com.pluralsight.courseinfo.server.CourseServer",
+            "projectName": "course-info-server"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.pluralsight.Main",
